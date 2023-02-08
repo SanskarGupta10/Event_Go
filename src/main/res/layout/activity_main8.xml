@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece8e2"
+    android:backgroundTint="#ece8e2"
+    tools:context=".MainActivity8">
+
+    <Button
+        android:id="@+id/b81"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/purple_700"
+        android:text="My Hosting Events"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/b82"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/teal_200"
+        android:text="Create New Event"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <Button
+        android:id="@+id/b83"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="Book A Event"
+        android:textColor="#F8F4F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/b84"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="My Bookings "
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <Button
+        android:id="@+id/b85"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/purple_200"
+        android:text="SETTINGS"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <TextView
+        android:id="@+id/t81"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="Hii , This application provides you the given  functionality below in order to make your event booking  journey easy . Thank You for using this app ."
+        android:textColor="#050000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ImageView
+        android:id="@+id/iv81"
+        android:layout_width="209dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296"
+        app:srcCompat="@drawable/ev4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

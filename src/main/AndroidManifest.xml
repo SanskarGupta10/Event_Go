@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Event_Go"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity24"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity23"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity22"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity20"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity19"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity18"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity17"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity16"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity15"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity14"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity13"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity12"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity11"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity10"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity9"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity8"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity7"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity6"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:launchMode="singleInstance">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

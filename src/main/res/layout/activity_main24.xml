@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece8e2"
+    android:backgroundTint="#ece8e2"
+    tools:context=".MainActivity24">
+
+    <TextView
+        android:id="@+id/tv241"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FF9800"
+        android:paddingLeft="5dp"
+        android:paddingTop="30dp"
+        android:paddingRight="5dp"
+        android:text="This mobile application is developed jointly by Sanskar Gupta and Ritakshi Sachdeva .In order to get reply of your queries related any bug or anything you can reach us on our Instagram account i.e. _guptaSanskar10"
+        android:textColor="#ece8e2"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

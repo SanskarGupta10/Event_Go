@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ece8e2"
+    tools:context=".MainActivity15">
+
+    <Button
+        android:id="@+id/b151"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/purple_700"
+        android:text="CHANGE PASSWORD"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534" />
+
+    <Button
+        android:id="@+id/b152"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/teal_200"
+        android:text="CHANGE ID PROOF PIC"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.628" />
+
+    <Button
+        android:id="@+id/b153"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/design_default_color_error"
+        android:text="LOGOUT"
+        android:textColor="#F8F4F4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.723" />
+
+    <Button
+        android:id="@+id/b154"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="DELETE ACCOUNT"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819" />
+
+    <Button
+        android:id="@+id/b155"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton2"
+        android:backgroundTint="@color/purple_500"
+        android:text="ABOUT / HELP"
+        android:textColor="#F8F3F3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.171"
+        app:srcCompat="@drawable/ev10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
